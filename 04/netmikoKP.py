@@ -17,6 +17,7 @@ iosv_l2_s2 = {
 }
 
 all_devices = [iosv_l2_s1,iosv_l2_s2]
+finalArray = []
 
 for devices in all_devices:
     net_connect = ConnectHandler(**devices)
@@ -24,7 +25,8 @@ for devices in all_devices:
     outputShow = net_connect.send_command(show_commands)
     outputArray = outputShow.splitlines()
     ipAdd = devices['ip']
-    df = pd.DataFrame(outputArray, columns=[ipAdd])
-
-namaFile=ipAdd+'.csv'
+    outputArray.insert(0,ipAdd)
+    finalArray+=outputArray+[]
+    df = pd.DataFrame(finalArray, columns=["Interfaces Status"])
+namaFile='Interfaces_Status.csv'
 df.to_csv(namaFile, index=False)
