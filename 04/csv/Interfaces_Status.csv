@@ -1,15 +1,14 @@
 Interfaces Status
 1.1.1.1
-""
 Port      Name               Status       Vlan       Duplex  Speed Type 
 Gi0/0                        connected    1            auto   auto unknown
 Gi0/2                        connected    1            auto   auto unknown
 Gi0/3                        connected    1            auto   auto unknown
 Gi0/1                        connected    routed       auto   auto unknown
-Gi1/0                        connected    100          auto   auto unknown
-Gi1/1                        connected    100          auto   auto unknown
-Gi1/2                        connected    100          auto   auto unknown
-Gi1/3                        connected    100          auto   auto unknown
+Gi1/0                        connected    1            auto   auto unknown
+Gi1/1                        connected    1            auto   auto unknown
+Gi1/2                        connected    1            auto   auto unknown
+Gi1/3                        connected    1            auto   auto unknown
 Gi2/0                        connected    1            auto   auto unknown
 Gi2/1                        connected    1            auto   auto unknown
 Gi2/2                        connected    1            auto   auto unknown
@@ -19,16 +18,15 @@ Gi3/1                        connected    1            auto   auto unknown
 Gi3/2                        connected    1            auto   auto unknown
 Gi3/3                        connected    1            auto   auto unknown
 2.2.2.2
-""
 Port      Name               Status       Vlan       Duplex  Speed Type 
 Gi0/0                        connected    1            auto   auto unknown
 Gi0/1                        connected    1            auto   auto unknown
 Gi0/2                        connected    1            auto   auto unknown
 Gi0/3                        connected    1            auto   auto unknown
-Gi1/0                        connected    100          auto   auto unknown
-Gi1/1                        connected    100          auto   auto unknown
-Gi1/2                        connected    100          auto   auto unknown
-Gi1/3                        connected    100          auto   auto unknown
+Gi1/0                        connected    1            auto   auto unknown
+Gi1/1                        connected    1            auto   auto unknown
+Gi1/2                        connected    1            auto   auto unknown
+Gi1/3                        connected    1            auto   auto unknown
 Gi2/0                        connected    1            auto   auto unknown
 Gi2/1                        connected    1            auto   auto unknown
 Gi2/2                        connected    1            auto   auto unknown
