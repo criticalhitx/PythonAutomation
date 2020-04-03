@@ -26,10 +26,10 @@ print("R squared value : ", model.score(x,y))
 
 # y = b0+b1x
 #b0
-print(model.intercept_[0])
+print("b0 : ",model.intercept_[0])
 
 #b1
-print(model.coef_[0])
+print("b1 : ",model.coef_[0])
 
 plt.scatter(x, y, color='green')
 plt.plot(x, model.predict(x), color = 'black')
