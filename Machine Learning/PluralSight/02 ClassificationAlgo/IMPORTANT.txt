@@ -1,0 +1,2 @@
+the fashion image dataset is not uploaded to github because the size is to big.
+File will only be saved locally
