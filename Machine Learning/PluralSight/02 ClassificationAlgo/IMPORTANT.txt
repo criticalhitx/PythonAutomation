@@ -1,2 +1,4 @@
 the fashion image dataset is not uploaded to github because the size is to big.
 File will only be saved locally
+
+https://drive.google.com/open?id=1L-I3cSMRlrz0CikaTZ6fr3d8Sw4SpD-a
