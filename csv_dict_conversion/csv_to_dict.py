@@ -6,7 +6,7 @@ reader = csv.reader(f)
 car = []
 firstline=True
 for row in reader:
-    if firstline: #ignore first line
+    if firstline: #First line we will get the header
         firstline=False
         header =[] #Get header of csv file into list########
         for x in row:
